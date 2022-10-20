@@ -13,13 +13,13 @@
 
     <ThaiFood> 
         <FoodID>003</FoodID>
-        <FoodName>ผัดหมูกระเทียม</FoodName>
+        <FoodName>ผัดหมู</FoodName>
         <Price>70บาท</Price>
     </ThaiFood>
 
     <ThaiFood>
         <FoodID>004</FoodID>
-        <FoodName>ผัดผักบุ้ง</FoodName>
+        <FoodName>ผัดหมี่</FoodName>
         <Price>50บาท</Price>
     </ThaiFood>
 
@@ -40,7 +40,7 @@
         <FoodName>ผัดข้าว</FoodName>
         <Price>55บาท</Price>
     </ThaiFood>
-    
+
     <ThaiFood>
         <FoodID>008</FoodID>
         <FoodName>ผัดพริก</FoodName>
