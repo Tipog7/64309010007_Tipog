@@ -1,0 +1,7 @@
+<Food>
+    <ThaiFood>
+        <FoodID>001</FoodID>
+        <FoodName>ผัดไท</FoodName>
+        <Price>120บาท</Price>
+    </ThaiFood>
+</Food> 
