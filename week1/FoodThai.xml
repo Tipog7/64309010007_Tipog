@@ -3,42 +3,58 @@
         <FoodID>001</FoodID>
         <FoodName>ผัดไท</FoodName>
         <Price>120บาท</Price>
+    </ThaiFood>
 
+    <ThaiFood>
         <FoodID>002</FoodID>
         <FoodName>ผัดผัก</FoodName>
         <Price>60บาท</Price>
+    </ThaiFood>
 
+    <ThaiFood> 
         <FoodID>003</FoodID>
         <FoodName>ผัดหมูกระเทียม</FoodName>
         <Price>70บาท</Price>
+    </ThaiFood>
 
+    <ThaiFood>
         <FoodID>004</FoodID>
         <FoodName>ผัดผักบุ้ง</FoodName>
         <Price>50บาท</Price>
+    </ThaiFood>
 
+    <ThaiFood> 
         <FoodID>005</FoodID>
         <FoodName>ผัดไข่</FoodName>
         <Price>30บาท</Price>
+    </ThaiFood>
 
+    <ThaiFood>
         <FoodID>006</FoodID>
         <FoodName>ผัดไก่</FoodName>
         <Price>65บาท</Price>
+    </ThaiFood>
 
+    <ThaiFood>
         <FoodID>007</FoodID>
         <FoodName>ผัดข้าว</FoodName>
         <Price>55บาท</Price>
-
+    </ThaiFood>
+    <ThaiFood>
         <FoodID>008</FoodID>
         <FoodName>ผัดพริก</FoodName>
         <Price>75บาท</Price>
+    </ThaiFood>
 
+    <ThaiFood>
         <FoodID>009</FoodID>
         <FoodName>ผัดเผ็ด</FoodName>
         <Price>80บาท</Price>
-
+    </ThaiFood>
+    
+    <ThaiFood>
         <FoodID>010</FoodID>
         <FoodName>ผัดหอย</FoodName>
         <Price>95บาท</Price>
-
     </ThaiFood>
 </Food> 
