@@ -40,6 +40,7 @@
         <FoodName>ผัดข้าว</FoodName>
         <Price>55บาท</Price>
     </ThaiFood>
+    
     <ThaiFood>
         <FoodID>008</FoodID>
         <FoodName>ผัดพริก</FoodName>
@@ -51,7 +52,7 @@
         <FoodName>ผัดเผ็ด</FoodName>
         <Price>80บาท</Price>
     </ThaiFood>
-    
+
     <ThaiFood>
         <FoodID>010</FoodID>
         <FoodName>ผัดหอย</FoodName>
