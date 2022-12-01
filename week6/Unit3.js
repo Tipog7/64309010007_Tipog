@@ -58,7 +58,7 @@ let Table =
     },
     {
         "employeeID": "10008",
-        "FullName": "นางพัชรียา สําราญทรัพย",
+        "FullName": "นางพัชรียา สําราญทรัพย์",
         "department": "การเงิน",
         "rank": "Account",
         "Salary": 50000,
