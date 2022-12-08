@@ -1,0 +1,114 @@
+{
+    "web": [
+        {
+            "ID": 1,
+            "Manga_name":"Solo Leveling",
+            "Author":"Uno,Hiroshi",
+            "Status":"Completed",
+            "Manga_type":"Manhwa",
+            "Release_year":2018,
+            "Updated_date":"18 กันยายน 2565",
+            "Publish":"1 มกราคม 2564",
+            "Category":["Action","Adventure","Fantasy"]
+        },
+        {
+            "ID": 2,
+            "Manga_name":"The Beginning After the End",
+            "Author":"Fuyuki123",
+            "Status":"Ongoing",
+            "Manga_type":"Manhwa",
+            "Release_year":2018,
+            "Updated_date":"4 ธันวาคม 2565",
+            "Publish":"4 พฤษภาคม 2564",
+            "Category":["Action","Adventure","Fantasy"]
+        },
+        {
+            "ID": 3,
+            "Manga_name":"Over geared",
+            "Author":"Park Saenal",
+            "Status":"Ongoing",
+            "Manga_type":"Manhwa",
+            "Release_year":2014,
+            "Updated_date":"6 ธันวาคม 2565",
+            "Publish":"3 มกราคม 2564",
+            "Category":["Action","Adventure","Fantasy","Shounen"]
+        },
+        {
+            "ID": 4,
+            "Manga_name":"One Piece",
+            "Author":"Fukuchi,Tsubasa",
+            "Status":"Ongoing",
+            "Manga_type":"Manga",
+            "Release_year":1997,
+            "Updated_date":"3 ธันวาคม 2565",
+            "Publish":"20 ตุลาคม 2542",
+            "Category":["Action","Adventure","Fantasy","Shounen","Super Power"]
+        },
+        {
+            "ID": 5,
+            "Manga_name":"Hunter X Hunter",
+            "Author":"Yamada, Yoshinobu",
+            "Status":"Ongoing",
+            "Manga_type":"Manga",
+            "Release_year":1998,
+            "Updated_date":"7 ธันวาคม 2565",
+            "Publish":"1 มกราคม 2564",
+            "Category":["Action","Adventure","Fantasy","Shounen","Super Power"]
+        },
+        {
+            "ID": 6,
+            "Manga_name":"One punch man",
+            "Author":"Saeki,Shun",
+            "Status":"Ongoing",
+            "Manga_type":"Manga",
+            "Release_year":2012,
+            "Updated_date":"5 ธันวาคม 2565",
+            "Publish":"1 มกราคม 2564",
+            "Category":["Action","Comedy","Super Power"]
+        },
+        {
+            "ID": 7,
+            "Manga_name":"Arcane Sniper",
+            "Author":"LEE Subaek",
+            "Status":"Ongoing",
+            "Manga_type":"Manhwa",
+            "Release_year":2021,
+            "Updated_date":"2 ธันวาคม 2565",
+            "Publish":"19 มิถุนายน 2564",
+            "Category":["Action","Adventure","Fantasy"]
+        },
+        {
+            "ID": 8,
+            "Manga_name":"Rebirth Of The Urban Immortal Cultivator",
+            "Author":"Aoki, Aki",
+            "Status":"Ongoing",
+            "Manga_type":"Manhwa",
+            "Release_year":2019,
+            "Updated_date":"19 ตุลาคม 2565",
+            "Publish":"1 มกราคม 2564",
+            "Category":["Action","Adventure","Fantasy","Slice of Life"]
+        },
+        {
+            "ID": 9,
+            "Manga_name":"Martial Peak",
+            "Author":"Saitaniya, Ryouichi",
+            "Status":"Ongoing",
+            "Manga_type":"Manhwa",
+            "Release_year":2018,
+            "Updated_date":"8 ธันวาคม 2565",
+            "Publish":"1 มกราคม 2564",
+            "Category":["Action","Adventure","Martial Arts"]
+        },
+        {
+            "ID": 10,
+            "Manga_name":"Sleeping Ranker",
+            "Author":"Worok",
+            "Status":"Ongoing",
+            "Manga_type":"Manhwa",
+            "Release_year":2022,
+            "Updated_date":"30 พฤศจิกายน 2565",
+            "Publish":"20 มิถุนายน 2565",
+            "Category":["Action","Drama","Fantasy","Martial Arts"]
+        }
+    ]
+}
