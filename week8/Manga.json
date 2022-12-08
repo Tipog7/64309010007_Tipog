@@ -3,6 +3,7 @@
         {
             "ID": 1,
             "Manga_name":"Solo Leveling",
+            "Picture":"pic01.jpg",
             "Author":"Uno,Hiroshi",
             "Status":"Completed",
             "Manga_type":"Manhwa",
@@ -14,6 +15,7 @@
         {
             "ID": 2,
             "Manga_name":"The Beginning After the End",
+            "Picture":"pic02.jpg",
             "Author":"Fuyuki123",
             "Status":"Ongoing",
             "Manga_type":"Manhwa",
@@ -25,6 +27,7 @@
         {
             "ID": 3,
             "Manga_name":"Over geared",
+            "Picture":"pic03.jpg",
             "Author":"Park Saenal",
             "Status":"Ongoing",
             "Manga_type":"Manhwa",
@@ -36,6 +39,7 @@
         {
             "ID": 4,
             "Manga_name":"One Piece",
+            "Picture":"pic04.jpg",
             "Author":"Fukuchi,Tsubasa",
             "Status":"Ongoing",
             "Manga_type":"Manga",
@@ -47,6 +51,7 @@
         {
             "ID": 5,
             "Manga_name":"Hunter X Hunter",
+            "Picture":"pic05.jpg",
             "Author":"Yamada, Yoshinobu",
             "Status":"Ongoing",
             "Manga_type":"Manga",
@@ -58,6 +63,7 @@
         {
             "ID": 6,
             "Manga_name":"One punch man",
+            "Picture":"pic06.jpg",
             "Author":"Saeki,Shun",
             "Status":"Ongoing",
             "Manga_type":"Manga",
@@ -69,6 +75,7 @@
         {
             "ID": 7,
             "Manga_name":"Arcane Sniper",
+            "Picture":"pic07.jpg",
             "Author":"LEE Subaek",
             "Status":"Ongoing",
             "Manga_type":"Manhwa",
@@ -80,6 +87,7 @@
         {
             "ID": 8,
             "Manga_name":"Rebirth Of The Urban Immortal Cultivator",
+            "Picture":"pic08.jpg",
             "Author":"Aoki, Aki",
             "Status":"Ongoing",
             "Manga_type":"Manhwa",
@@ -91,6 +99,7 @@
         {
             "ID": 9,
             "Manga_name":"Martial Peak",
+            "Picture":"pic09.jpg",
             "Author":"Saitaniya, Ryouichi",
             "Status":"Ongoing",
             "Manga_type":"Manhwa",
@@ -102,13 +111,14 @@
         {
             "ID": 10,
             "Manga_name":"Sleeping Ranker",
+            "Picture":"pic10.jpg",
             "Author":"Worok",
             "Status":"Ongoing",
             "Manga_type":"Manhwa",
             "Release_year":2022,
             "Updated_date":"30 พฤศจิกายน 2565",
             "Publish":"20 มิถุนายน 2565",
-            "Category":["Action","Drama","Fantasy","Martial Arts"]
+            "Category":["Action","Drama","Fantasy","Martial Arts"   ]
         }
     ]
 }
