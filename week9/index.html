@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  
+    <body onload="getAjax()">
+        <div class="container">
+          <div class="container" style="margin-top: 50px;">
+              <h2>Movie</h2>  
+          </div>
+    
+        <div class="container" id="display">
+    
+        </div>
+        <div class="conrainer">
+          <button class="btn" onclick="pre()">ก่อนหน้า</button> 
+          <button class="btn" onclick="next()">ถัดไป</button>
+        
+    
+        <script>
+            let xhttp = new XMLHttpRequest();
+            let i =0;
+            function getAjax(){
+            xhttp.open("GET",'http://localhost:3000/movieReview');
+            xhttp.send();
+            xhttp.onload = function(){
+                let obj = JSON.parse(this.responseText);
+                let temp = '';
+                  temp += '<thead><tr><th scope="col" style="background:#222222; color:white; text-align:center">id</th>'
+                    +'<th scope="col" style="background:#222222; color:white; text-align:center">movieName</th>'
+                    +'<th scope="col" style="background:#222222; color:white; text-align:center">movieLength</th>'
+                    +'<th scope="col" style="background:#222222; color:white; text-align:center">director</th>'
+                    +'<th scope="col" style="background:#222222; color:white; text-align:center">category</th>'
+                    +'<th scope="col" style="background:#222222; color:white; text-align:center">picture</th>'
+                    +'<th scope="col" style="background:#222222; color:white; text-align:center">trailer</th>'
+                    +'<th scope="col" style="background:#222222; color:white; text-align:center">review</th>'
+                    +'</tr></thead>'
+                    +'<tr><td>'+ obj[i].id + '</td><td>'+ obj[i].movieName + '</td>'
+                    +'<td>'+obj[i].movieLength + '</td>' + '<td>' + obj[i].director + '</td>'
+                    +'<td>'+obj[i].category + '</td>' + '<td>' + 'src= + obj[i].picture '+ '</td>'
+                    +'<td>'+obj[i].trailer + '</td>' + '<td><img src="'+obj[i].picture+ '"width ="200 px"></td></tr>'
+
+                    +'<iframe src="'+obj[i].trailer+'" title="W3Schools Free Online Web Tutorials"></iframe>'
+    
+                    document.getElementById('display').innerHTML='<table class="table">'+temp+'</table>'
+                }}
+    
+                function next(){
+                  console.log(i);
+                  i++;
+                  getAjax();
+                }
+                function pre(){
+                  console.log(i);
+                  i--;
+                  getAjax();
+                }
+    
+        </script>
+   
+    
+  </body>
+</html>
