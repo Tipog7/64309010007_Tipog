@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+  <body>
+   <form id="myForm">
+    <div class="row" style="text-align:center; font-size: 19px;">
+        <div class="col-10"><br>
+            <label> ชื่อหนัง </label>
+            <input type="text" id="movieName" class="form-control" style="background-color: cornflowerblue; color: white;"  >
+        </div>
+        <div class="col-2"><br>
+            <label> ความยาวหนัง </label>
+            <input type="number" id="movieLength" class="form-control" style="background-color: cornflowerblue; color: white;"> 
+        </div>
+        <div class="col-6"><br>
+            <label> ผู้กำกับ </label>
+            <input type="text" id="director" class="form-control" style="background-color: cornflowerblue; color: white;">
+        </div>
+        <div class="col-6"><br>
+            <label> หมวดหมู่หนัง </label>
+            <input type="text" id="category" class="form-control" style="background-color: cornflowerblue; color: white;">
+        </div>
+        <div class="col-6"><br>
+            <label> URL รูปภาพ </label>
+            <input type="text" id="picture" class="form-control" style="background-color: cornflowerblue; color: white;">
+        </div>
+        <div class="col-6"><br>
+            <label> URL ตัวอย่างหนัง(Youtube) </label>
+            <input type="text" id="trailer" class="form-control" style="background-color: cornflowerblue; color: white;">
+        </div>
+        <div class="col-12"><br>
+            <label> ประวัติย่อ </label>
+            <textarea type="text" id="review" class="form-control" rows="6" style="background-color: cornflowerblue; color: white;"></textarea>
+        </div>
+
+        <div class="col-3"><br>
+            <label> บทหนัง </label>
+            <input type="number" id="screenPlay" class="form-control" style="background-color: cornflowerblue; color: white;"></textarea>
+        </div>
+        <div class="col-2"><br>
+            <label> การดำเนินเรื่อง </label>
+            <input type="number" id="playing" class="form-control" style="background-color: cornflowerblue; color: white;"></textarea>
+        </div>
+        <div class="col-2"><br>
+            <label> ดนตรีประกอบ </label>
+            <input type="number" id="music" class="form-control" style="background-color: cornflowerblue; color: white;"></textarea>
+        </div>
+        <div class="col-2"><br>
+            <label> ฝีมือนักแสดง </label>
+            <input type="number" id="actorSkills" class="form-control" style="background-color: cornflowerblue; color: white;"></textarea>
+        </div>
+        <div class="col-3"><br>
+            <label> กราฟฟิก </label>
+            <input type="number" id="graphics" class="form-control" style="background-color: cornflowerblue; color: white;"></textarea>
+        </div> 
+      </div>
+      <br><br><br><br>
+    
+      <div class="row">
+        <div class="col" style="text-align: center;">
+            <input type="button" value="AddMovie" class="btn" onclick="addMovie()" style="background-color: rgb(230, 59, 59); color: white;">
+        </div>
+    </div>
+   </form>
+
+
+
+    <script>
+        function AddMovie(){ 
+        let obj ={
+            "movieName": document.forms['myForm']['movieName'].value,
+            "movieLength": document.forms['myForm']['movieLength'].value,
+            "director": document.forms['myForm']['director'].value,
+            "category": document.forms['myForm']['category'].value,
+            "picture": document.forms['myForm']['picture'].value,
+            "trailer": document.forms['myForm']['trailer'].value,
+            "review": {
+                "review": document.forms['myForm']['review'].value,
+                "score": {
+                    "screenPlay": document.forms['myForm']['screenPlay'].value,
+                    "playing": document.forms['myForm']['playing'].value,
+                    "music": document.forms['myForm']['music'].value,
+                    "actorSkills": document.forms['myForm']['actorSkills'].value,
+                    "graphics": document.forms['myForm']['graphics'].value,
+                    "average": null
+                         }
+                     }
+                }
+            }
+    </script>
+
+
+
+
+  </body>
+</html>
