@@ -125,26 +125,8 @@
           "average": 9.8
         }
       }
-    },
-    {
-      "movieName": "sadasdasd",
-      "movieLength": "11111",
-      "director": "adaaaasdasd",
-      "category": "asdasdsadasdasdasd",
-      "picture": "asdasdasd",
-      "trailer": "asdasdas",
-      "review": {
-        "review": "asdasdasd5",
-        "score": {
-          "screenPlay": "55",
-          "playing": "33",
-          "music": "55",
-          "actorSkills": "44",
-          "graphics": "33",
-          "average": null
-        }
-      },
-      "id": 7
     }
+   
+    
   ]
 }
