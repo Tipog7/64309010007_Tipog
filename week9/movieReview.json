@@ -125,8 +125,26 @@
           "average": 9.8
         }
       }
+    },
+    {
+      "id": 7,
+      "movieName": "fdfsdaf",
+      "movieLength": "11",
+      "director": "dfsdf",
+      "category": "sfsdfg",
+      "picture": "dsfsdf",
+      "trailer": "dsfsdf",
+      "review": {
+        "review": "dsfsdf",
+        "score": {
+          "screenPlay": "1",
+          "playing": "1",
+          "music": "1",
+          "actorSkills": "1",
+          "graphics": "1",
+          "average": null
+        }
+      }
     }
-   
-    
   ]
 }
