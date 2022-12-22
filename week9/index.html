@@ -27,28 +27,26 @@
         <script>
             let xhttp = new XMLHttpRequest();
             let i =0;
+            let obj,temp;
             function getAjax(){
             xhttp.open("GET",'http://localhost:3000/movieReview');
             xhttp.send();
             xhttp.onload = function(){
-                let obj = JSON.parse(this.responseText);
-                let temp = '';
-                  temp += '<thead><tr><th scope="col" style="background:#222222; color:white; text-align:center">id</th>'
-                    +'<th scope="col" style="background:#222222; color:white; text-align:center">movieName</th>'
-                    +'<th scope="col" style="background:#222222; color:white; text-align:center">movieLength</th>'
-                    +'<th scope="col" style="background:#222222; color:white; text-align:center">director</th>'
-                    +'<th scope="col" style="background:#222222; color:white; text-align:center">category</th>'
-                    +'<th scope="col" style="background:#222222; color:white; text-align:center">picture</th>'
-                    +'<th scope="col" style="background:#222222; color:white; text-align:center">trailer</th>'
-                    +'<th scope="col" style="background:#222222; color:white; text-align:center">review</th>'
-                    +'</tr></thead>'
-                    +'<tr><td>'+ obj[i].id + '</td><td>'+ obj[i].movieName + '</td>'
-                    +'<td>'+obj[i].movieLength + '</td>' + '<td>' + obj[i].director + '</td>'
-                    +'<td>'+obj[i].category + '</td>' + '<td>' + 'src= + obj[i].picture '+ '</td>'
-                    +'<td>'+obj[i].trailer + '</td>' + '<td><img src="'+obj[i].picture+ '"width ="200 px"></td></tr>'
+                obj = JSON.parse(this.responseText);
+                temp = '<tr><h2>'+obj[i].movieName+'</h2></tr>'
+                
 
-                    +'<iframe src="'+obj[i].trailer+'" title="W3Schools Free Online Web Tutorials"></iframe>'
-    
+                +'<tr><td>'+'<iframe src="'+obj[i].trailer+'" width="600" height="300" style="text-align:center;" "></iframe>' +
+                 obj[i].review.review+ '</td>'
+
+                +'<td>'+'<img src='+obj[i].picture+'> </td></tr>'
+
+
+                
+
+                ;
+                
+      
                     document.getElementById('display').innerHTML='<table class="table">'+temp+'</table>'
                 }}
     
