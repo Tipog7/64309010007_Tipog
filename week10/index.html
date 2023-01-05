@@ -43,7 +43,7 @@
                         +'<td>'+'<img style=padding:25px src='+obj[i].Picture+'></td>'
 
                     +'<tr>'
-                        +'<th scope="col">Author</th>'
+                        +'<th scope="col" style="background-color: ;">Author</th>'
                         +'<th scope="col">Status</th>'
                         +'<th scope="col style="text"">Category</th>'
                         +'<th scope="col">Manga_type</th>'
@@ -53,7 +53,7 @@
                     +'</tr>'
                             
                     +'<tr>'
-                    +'<td scope="row">'+obj[i].Author+'</td>'
+                    +'<td scope="row" >'+obj[i].Author+'</td>'
                     +'<td>'+obj[i].Status+'</td>'
                     +'<td>'+obj[i].Category+'</td>'
                     +'<td>'+obj[i].Manga_type+'</td>'
@@ -67,7 +67,7 @@
 
 
                     //console.log(temp);
-                document.getElementById('display').innerHTML='<table class="table">'+temp+'</table>'
+                document.getElementById('display').innerHTML='<table class="table table-borderless table-dark">'+temp+'</table>'
             }
 
                 function next(){
