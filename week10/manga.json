@@ -1,0 +1,185 @@
+{
+  "web": [
+    {
+      "id": 1,
+      "Manga_name": "Solo Leveling",
+      "Picture": "https://www.phoenixnext.com/img/600/744/resize/catalog/product/_/l/_ln_solo_leveling_vol1_cover.jpg",
+      "Author": "Uno,Hiroshi",
+      "Status": "Completed",
+      "Manga_type": "Manhwa",
+      "Release_year": 2018,
+      "Updated_date": "18 กันยายน 2565",
+      "Publish": "1 มกราคม 2564",
+      "Category": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ]
+    },
+    {
+      "id": 2,
+      "Manga_name": "The Beginning After the End",
+      "Picture": "https://www.thai-novel.com/wp-content/uploads/2021/05/b562634e472923d3fc9f0186aa35537d.jpg",
+      "Author": "Fuyuki123",
+      "Status": "Ongoing",
+      "Manga_type": "Manhwa",
+      "Release_year": 2018,
+      "Updated_date": "4 ธันวาคม 2565",
+      "Publish": "4 พฤษภาคม 2564",
+      "Category": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ]
+    },
+    {
+      "id": 3,
+      "Manga_name": "Over geared",
+      "Picture": "https://i.pinimg.com/736x/95/54/ba/9554ba47a222f3ce574174e1191a9e67.jpg",
+      "Author": "Park Saenal",
+      "Status": "Ongoing",
+      "Manga_type": "Manhwa",
+      "Release_year": 2014,
+      "Updated_date": "6 ธันวาคม 2565",
+      "Publish": "3 มกราคม 2564",
+      "Category": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Shounen"
+      ]
+    },
+    {
+      "id": 4,
+      "Manga_name": "One Piece",
+      "Picture": "https://2.bp.blogspot.com/-2YN25cQ-7DQ/WAzIjE2K8eI/AAAAAAAAOYA/CmBAotZ5HZQ3ZfJxtPpcum00S5rgO0FdQCLcB/s1600/One%252BPiece01_001.jpg",
+      "Author": "Fukuchi,Tsubasa",
+      "Status": "Ongoing",
+      "Manga_type": "Manga",
+      "Release_year": 1997,
+      "Updated_date": "3 ธันวาคม 2565",
+      "Publish": "20 ตุลาคม 2542",
+      "Category": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Shounen",
+        "Super Power"
+      ]
+    },
+    {
+      "id": 5,
+      "Manga_name": "Hunter X Hunter",
+      "Picture": "https://upload.wikimedia.org/wikipedia/th/b/ba/Hunter_x_hunter_DVD.jpg",
+      "Author": "Yamada, Yoshinobu",
+      "Status": "Ongoing",
+      "Manga_type": "Manga",
+      "Release_year": 1998,
+      "Updated_date": "7 ธันวาคม 2565",
+      "Publish": "1 มกราคม 2564",
+      "Category": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Shounen",
+        "Super Power"
+      ]
+    },
+    {
+      "id": 6,
+      "Manga_name": "One punch man",
+      "Picture": "https://cms.dmpcdn.com/musicarticle/2021/07/22/19ddfac0-eacf-11eb-bce3-83bbee8caf3e_original.jpg",
+      "Author": "Saeki,Shun",
+      "Status": "Ongoing",
+      "Manga_type": "Manga",
+      "Release_year": 2012,
+      "Updated_date": "5 ธันวาคม 2565",
+      "Publish": "1 มกราคม 2564",
+      "Category": [
+        "Action",
+        "Comedy",
+        "Super Power"
+      ]
+    },
+    {
+      "id": 7,
+      "Manga_name": "Arcane Sniper",
+      "Picture": "https://www.wasabith.com/wp-content/uploads/2021/02/Arcane-Sniper.jpg",
+      "Author": "LEE Subaek",
+      "Status": "Ongoing",
+      "Manga_type": "Manhwa",
+      "Release_year": 2021,
+      "Updated_date": "2 ธันวาคม 2565",
+      "Publish": "19 มิถุนายน 2564",
+      "Category": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ]
+    },
+    {
+      "id": 8,
+      "Manga_name": "Rebirth Of The Urban Immortal Cultivator",
+      "Picture": "http://1.bp.blogspot.com/-nQldt008Bt4/XaBWcWiqTII/AAAAAAAFJxA/DLuHw1PNy1sihIj5KFMdcXeht_X8IwmJQCLcBGAsYHQ/s0/Rebirth-Of-the-Urban-1_TH-001.jpg",
+      "Author": "Aoki, Aki",
+      "Status": "Ongoing",
+      "Manga_type": "Manhwa",
+      "Release_year": 2019,
+      "Updated_date": "19 ตุลาคม 2565",
+      "Publish": "1 มกราคม 2564",
+      "Category": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Slice of Life"
+      ]
+    },
+    {
+      "id": 9,
+      "Manga_name": "Magic Emperor",
+      "Picture": "https://mangathailand.com/wp-content/uploads/manga/magic-emperor/236/mangathailand-magic-emperor-236-1.jpg",
+      "Author": "Yamada, Yoshinobu",
+      "Status": "Ongoing",
+      "Manga_type": "Manhwa",
+      "Release_year": 2019,
+      "Updated_date": "27 ธันวาคม 2565",
+      "Publish": "1 มกราคม 2564",
+      "Category": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Martial Arts",
+        "Supernatural"
+      ]
+    },
+    {
+      "id": 10,
+      "Manga_name": "Sleeping Ranker",
+      "Picture": "https://mangasoverall.com/wp-content/uploads/2022/03/resource-2.jpg",
+      "Author": "Worok",
+      "Status": "Ongoing",
+      "Manga_type": "Manhwa",
+      "Release_year": 2022,
+      "Updated_date": "30 พฤศจิกายน 2565",
+      "Publish": "20 มิถุนายน 2565",
+      "Category": [
+        "Action",
+        "Drama",
+        "Fantasy",
+        "Martial Arts"
+      ]
+    },
+    {
+      "id": 11,
+      "Manga_name": "Survival Of Blade King",
+      "Picture": "https://luminousscans.com/wp-content/uploads/2021/07/Sword_King.png",
+      "Author": "asdas",
+      "Status": "ยังไม่จบ",
+      "Manga_type": "Manhwa",
+      "Release_year": "2020",
+      "Updated_date": "2023-01-07",
+      "Publish": "2023-01-01",
+      "Category": "dddd,sdasd,asdas"
+    }
+  ]
+}
