@@ -59,21 +59,17 @@
             <label>  อัพเดทข้อมูลเมื่อ</label>
             <input type="date" id="Updated_date" class="form-control" style="background-color: cornflowerblue; color: white;">
         </div>
-    
         </div>
-
       </div>
       <br><br><br><br>
     
       <div class="row">
         <div class="col" style="text-align: center;">
+            
             <input type="button" value="AddManga" class="btn" onclick="AddMovie()" style="background-color: rgb(230, 59, 59); color: white;">
         </div>
     </div>
    </form>
-
-
-
     <script>
         function AddMovie(){ 
         let obj ={
@@ -86,8 +82,7 @@
             "Release_year": document.forms['myForm']['Release_year'].value,
             "Updated_date": document.forms['myForm']['Updated_date'].value,
             "Publish": document.forms['myForm']['Publish'].value,
-            "Category": document.forms['myForm']['Category'].value,
-                     
+            "Category": document.forms['myForm']['Category'].value, 
                 }
             console.log(obj);
 
@@ -98,12 +93,7 @@
             xhttp.open("POST","http://localhost:3000/web");
             xhttp.setRequestHeader("Content-Type","application/json");
             xhttp.send(text);
-
             }
-
-            
-
-
     </script>
     <script>
         $('.date-own').datepicker({
@@ -111,8 +101,5 @@
          format: 'yyyy'
        });
         </script>
-
-
-
   </body>
 </html>
